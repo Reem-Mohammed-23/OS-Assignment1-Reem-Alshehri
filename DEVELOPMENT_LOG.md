@@ -32,90 +32,119 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 28 , 2026, 3:30 PM]
+**What I did**: Forked the repository and set up the project
+
 
 **Details**: 
+- Created a fork of the assignment repository
+- Opened the project in my IDE
+- Reviewed the provided code structure
+- Ran the program for the first time
+
 
 **Challenges**: 
+Understanding the overall structure of the code and how threads are used
 
 **Solution**: 
+Carefully read the code and traced execution step-by-step
 
-**Time spent**: 
+**Time spent**: 1 hour
+
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 28, 2026, 5:00 PM]
+**What I did**: Added student ID and tested randomness
 
 **Details**: 
+- Inserted my student ID into the random generator
+- Observed changes in number of processes and burst times
+- Verified that output is unique
 
 **Challenges**: 
-
+Understanding how Random with seed works
 **Solution**: 
+Researched how seeded randomness ensures consistent but unique output
 
 **Time spent**: 
+45 minutes
+---
+
+### Entry 3 - [March 29, 2026, 2:00 PM]
+**What I did**: Implemented Feature 1 (Priority)
+
+**Details**: - Added priority variable to Process class
+- Generated random priority (1-5)
+- Displayed priority in ready queue output
+
+**Challenges**: 
+Priority was not showing initially
+**Solution**: 
+Fixed printing statement in addProcessToQueue method
+
+
+**Time spent**:  1 hour
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 4 - [March 29, 2026, 6:00 PM]
+**What I did**:  Implemented Feature 2 (Context Switch)
 
-**Details**: 
+**Details**: - Added counter for context switches
+- Incremented counter before each process execution
+- Printed total context switches at the end
 
-**Challenges**: 
 
-**Solution**: 
+**Challenges**: Figuring out correct placement for increment
 
-**Time spent**: 
 
----
+**Solution**: Placed it before thread.start()
 
-### Entry 4 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 45 minutes
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 5 - [March 30, 2026, 3:00 AM]
+**What I did**: Implemented Feature 3 (Waiting Time)
 
-**Details**: 
+**Details**: - Added time tracking variables
+- Calculated waiting time using system time
+- Displayed summary table at the end
+
 
 **Challenges**: 
-
+Understanding how to track waiting time correctly
 **Solution**: 
-
-**Time spent**: 
+Used lastQueueEnterTime and startTime difference
+**Time spent**:  1 hours
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
+### Entry 6 - [March 30, 2026,  5:00 AM]
+**What I did**:  Final testing and debugging
 
-**Details**: 
+**Details**: - Fixed issues with priority display
+- Verified all features working correctly
+- Reviewed output and ensured correctness
 
-**Challenges**: 
 
-**Solution**: 
+**Challenges**: Minor bugs in output formatting
 
-**Time spent**: 
+**Solution**: Adjusted print statements
+
+**Time spent**:45 minutes 
 
 ---
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [3 days ]
 
 **Most challenging part**: 
-
+Implementing waiting time correctly
 **Most interesting learning**: 
+Understanding how Round-Robin scheduling works with threads
 
-**What I would do differently next time**: 
+**What I would do differently next time**:
+Start earlier and test each feature step-by-step
